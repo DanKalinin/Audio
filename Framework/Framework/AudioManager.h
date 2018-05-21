@@ -106,7 +106,7 @@
 @property CXProvider *provider;
 @property CXCallController *callController;
 @property AudioEnginePair *audioEnginePair;
-@property StreamPair *streamPair;
+@property HLPStreamPair *streamPair;
 
 - (instancetype)initWithError:(NSError **)error;
 
